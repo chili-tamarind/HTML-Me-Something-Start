@@ -1,1 +1,112 @@
 /* Write your CSS here! */
+
+/* ---------------------------  Element Selectors*/
+
+/* Use this to give the <body> element a margin value of 8px and a display type of block.*/
+
+body { 
+    margin: 8px auto; /*Assignments #4*/
+    display: block; /*Assignments #4*/
+    
+    background-color:black;
+    min-height: 100vh; 
+    max-width: 1000px; 
+
+    color: white;
+    font-family: 'Roboto', sans-serif;   
+}
+
+p {  
+    line-height: 1.45;  
+}
+
+
+/* ---------------------------  Class Selectors */
+.funParagraph {
+    color: green; /*Assignments #4*/
+}
+
+.article_pictures {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.citing {
+    font-size: 15px;    
+    padding-left: 0;
+    margin: 0px;
+}
+
+.slideshow_pictures {
+    width: auto;
+    height:300px;
+}
+
+.column_container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.table_container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.my_headers {   
+    font-weight: bold;  
+    color: red;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+
+    background: black; 
+    font-size: 10px;
+}
+
+/* --------------------------- Id Selectors */ 
+
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to make the color red and apply any additional styling of your choosing.*/
+#mainHeading { 
+    color: red; /*Assignments #4*/
+
+    text-align: center;   
+    background: black;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px; 
+}
+
+/*Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css and make the color green and give it any additional styling of your choosing.*/
+
+#testP { /*Assignments #4*/
+    font-weight: bold; 
+}
