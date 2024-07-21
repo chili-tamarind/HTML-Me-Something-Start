@@ -108,5 +108,10 @@ p {
 /*Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css and make the color green and give it any additional styling of your choosing.*/
 
 #testP { /*Assignments #4*/
-    font-weight: bold; 
+    font-weight: bold;
+}
+
+#fruit_dance { 
+    width: auto;
+    height:200px;    
 }
