@@ -20,6 +20,10 @@ p {
     line-height: 1.45;  
 }
 
+a {
+    color: #a5a827;
+}
+
 
 /* ---------------------------  Class Selectors */
 .funParagraph {
@@ -51,6 +55,7 @@ p {
 .slideshow_pictures {
     width: auto;
     height:300px;
+    border-radius: 5%;
 }
 
 .column_container {
@@ -78,18 +83,18 @@ p {
     color: red;
 }
 
-.footer {
+.footer {    
     margin-top: 30px;
     text-align: center;
+    color: #a5a827;
 
-    padding-top: 12px;
     padding-right: 12px;
     padding-bottom: 12px;
     padding-left: 12px;
 
     background: black; 
-    font-size: 10px;
 }
+
 
 /* --------------------------- Id Selectors */ 
 
@@ -111,7 +116,19 @@ p {
     font-weight: bold;
 }
 
-#fruit_dance { 
+#avocado_wave { 
     width: auto;
-    height:200px;    
+    height: 200px;
+}
+
+#avocado_ref{
+    color: #a5a827;
+    display: flex;
+}
+
+#avocado_img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
