@@ -119,6 +119,9 @@ a {
 #avocado_wave { 
     width: auto;
     height: 200px;
+    display: block;
+    margin-left: auto;
+    padding-top: 100px;
 }
 
 #avocado_ref{
